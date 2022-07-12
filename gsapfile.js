@@ -11,9 +11,9 @@ var tl = gsap.timeline({ paused: true });
 
 
 tl.to(".orange", { duration: 1, x: 200, rotation: -360, scale: .1 });
-tl.to(".purple", { duration: 2, x: 400, rotation: 0, scale: 6, ease: "bounce" });
-tl.to(".gray", { duration: 3, x: 1000, rotation: 45, scale: 4});
-tl.to(".green", { duration: 3, x: 800, rotation: 0, scale: .5 });
+tl.to(".purple", { duration: 2, x: 500, rotation: 0, scale: 5, ease: "bounce" });
+tl.to(".gray", { duration: 3, x: 1000, rotation: 130, scale: 3});
+tl.to(".green", { duration: 3, x: 800, rotation: 0, scale: .3 });
 tl.to(".word", { duration: 1, x: 1200, rotation: -90, scale: 5, ease: "bounce" });
 tl.to(".dis", { duration: 5, x: 100, rotation: -360, scale: 1});
 
